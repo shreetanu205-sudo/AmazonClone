@@ -1,0 +1,103 @@
+body{
+    background-color: white;
+}
+#fixednav{
+    background-color:#131921;
+    width:100svw;
+    position:fixed;
+    top:0px;
+    left:0px;
+    height:65px;
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+}
+a{
+    color:white;
+    text-decoration:none;
+}
+#amazonlogo{
+    width:130px;
+    height:65px;
+    background-color:#131921;
+}
+#location{
+    width:80px;
+    display:flex;
+    justify-content:center;
+    margin-top:10px;
+}
+#dropdownsearch{
+   height:38px;
+   width:40px;
+   background-color:rgb(216, 215, 215);
+   display:inline-block;
+   margin-top:10px;
+   border:0.75px solid rgb(159, 155, 155)
+}
+#searchbar{
+   height:33px;
+   width:750px;
+   background-color:rgb(255, 255, 255);
+   display:inline-block;
+   margin-top:10px;
+   font-size:15px;
+   border:1px solid  rgb(159, 155, 155);
+}
+#Searchicon{
+    background-color:rgb(255, 190, 10);
+    width:33px;
+    height:38px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-top:10px;
+}
+#CompleteSearch{
+    display:flex;
+    justify-content:center;
+}
+#Language{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin:10px;
+}
+#britishflag{
+    width:25px;
+    height:18px;
+    margin:4px;
+}
+#LangDropdown{
+    background-color:#131921;
+    color:White;
+    height:30px;
+}
+
+#Complete{
+    width:113.53px;
+    height:50px;
+    background-color:#131921;
+    color:white;
+    margin-top:10px;
+}
+#Accounts{
+    background-color:#131921;
+    color:white;
+    border:0px;
+}
+#returns{
+    background-color:#131921;
+    width:76.95px;
+    height:50px;
+    margin-top:10px;
+}
+#cartlogo{
+    width:59px;
+    height:50px;
+}
+#navbar2{
+    background-color:#1f2a38;
+    width:100svw;
+    height:50px;
+}
