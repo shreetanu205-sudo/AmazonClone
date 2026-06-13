@@ -1,5 +1,7 @@
 body{
     background-color: white;
+    padding:0px;
+    margin:0px;
 }
 #fixednav{
     background-color:#131921;
@@ -98,6 +100,39 @@ a{
 }
 #navbar2{
     background-color:#1f2a38;
-    width:100svw;
-    height:50px;
+    width:100vw;
+    height:40px;
+    margin-top:65px;
+    display:flex;
+    align-items:center;
+}
+.nav2links{
+    margin-right:10px;
+    margin-left:15px;
+}
+#backgroundImage{
+    width:1497px;
+    height:100vh;
+    margin:0px 10px 0px 10px;
+    display:block;
+}
+.hero{
+    position:relative;
+}
+.message{
+    position:absolute;
+    width:1000px;
+    text-align:center;
+    height:40px;
+    background-color:white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    box-shadow: 50px solid black;
+    left:275px;
+    top:400px;
+}
+#mesg{
+    color:blue;
+
 }
