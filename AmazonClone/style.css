@@ -1,5 +1,4 @@
 body{
-    background-color: white;
     padding:0px;
     margin:0px;
     font-family:Arial;
@@ -14,10 +13,8 @@ a{
 }
 #fixednav{
     background-color:#0f1111;
-    width:100svw;
-    top:0px;
-    left:0px;
     height:60px;
+    width:100%;
     display:flex;
     justify-content:space-evenly;
     align-items:center;
@@ -146,7 +143,7 @@ span{
 /*panel*/
 .panel{
     background-color:#222f3d;
-    width:100vw;
+    width:100%;
     height:40px;
     display:flex;
     align-items:center;
@@ -171,30 +168,28 @@ span{
     margin-right:15px;
 }
 
-#backgroundImage{
-    width:1497px;
-    height:100vh;
-    margin:0px 10px 0px 10px;
-    display:block;
-}
-.hero{
-    position:relative;
-}
-.message{
-    position:absolute;
-    width:1450px;
-    text-align:center;
-    height:40px;
-    background-color:white;
+/*hero section*/
+
+.hero-section{
+    background-image:url(heroimage.jpg);
+    background-size:cover;
+    height:340px;
     display:flex;
     justify-content:center;
-    align-items:center;
-    box-shadow: 50px solid black;
-    left:30px;
-    top:270px;
-    right:30px;
+    align-items:flex-end;
 }
-#mesg{
+.hero-mesg{
+    height:40px;
+    color:black;
+    background-color:white;
+    width:97%; 
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:0.85rem;
+    position:relative;
+    bottom:50px;
+}
+.hero-link{
     color:blue;
-
 }
