@@ -2,63 +2,94 @@ body{
     background-color: white;
     padding:0px;
     margin:0px;
+    font-family:Arial;
+    border:border-box;
 }
-#fixednav{
-    background-color:#131921;
-    width:100svw;
-    position:fixed;
-    top:0px;
-    left:0px;
-    height:65px;
-    display:flex;
-    justify-content:space-evenly;
-    align-items:center;
+p{
+    margin:0;
 }
 a{
     color:white;
     text-decoration:none;
 }
-#amazonlogo{
-    width:130px;
-    height:65px;
-    background-color:#131921;
-}
-#location{
-    width:80px;
+#fixednav{
+    background-color:#0f1111;
+    width:100svw;
+    top:0px;
+    left:0px;
+    height:60px;
     display:flex;
-    justify-content:center;
-    margin-top:10px;
+    justify-content:space-evenly;
+    align-items:center;
 }
+/*logo*/
+.nav-logo{
+    height:50px;
+    width:100px;
+}
+.logo{
+    background-image:url(logo.png);
+    height:50px;
+    width:100%;
+    background-size:cover;
+}
+.border{
+    border:2px solid transparent;
+}
+.border:hover{
+    border:1.5px solid white;
+}
+
+/*box2-location*/
+.add-first{
+    color:#cccccc;
+    font-size:0.85rem;
+    margin-left:19px;
+}
+.add-sec{
+    font-size:1rem;
+    color:#cccccc;
+}
+.add-icon{
+    display:flex;
+}
+
+/*box3-Search menu*/
+
 #dropdownsearch{
-   height:38px;
-   width:40px;
-   background-color:rgb(216, 215, 215);
-   display:inline-block;
-   margin-top:10px;
-   border:0.75px solid rgb(159, 155, 155)
-}
+   background-color:#f3f3f3;
+   width:50px;
+   text-align:center;
+   border-top-left-radius:5px;
+   border-bottom-left-radius:5px; 
+   border:none;
+} 
 #searchbar{
-   height:33px;
-   width:750px;
-   background-color:rgb(255, 255, 255);
-   display:inline-block;
-   margin-top:10px;
-   font-size:15px;
-   border:1px solid  rgb(159, 155, 155);
+    width:100%;
+    font-size:1rem;
+    border:none;
 }
 #Searchicon{
-    background-color:rgb(255, 190, 10);
-    width:33px;
-    height:38px;
+    width:45px;
     display:flex;
     justify-content:center;
     align-items:center;
-    margin-top:10px;
+    font-size:1.2rem;
 }
-#CompleteSearch{
+.CompleteSearch{
     display:flex;
-    justify-content:center;
+    justify-content:space-evenly;
+    width:620px;
+    border-radius:5px;
+    background-color:rgb(243, 177, 35);
+    height:40px;
 }
+.CompleteSearch:hover{
+    border:3px solid rgb(243, 177, 35);
+}
+
+/*box-4 language*/
+
 #Language{
     display:flex;
     justify-content:center;
@@ -76,40 +107,70 @@ a{
     height:30px;
 }
 
-#Complete{
-    width:113.53px;
-    height:50px;
-    background-color:#131921;
+/*box5-account and lists*/
+
+.sign-in{
     color:white;
-    margin-top:10px;
 }
-#Accounts{
-    background-color:#131921;
+span{
+    font-size:0.7rem;
+}
+.navsecond{
+    font-size:0.85rem;
+    font-weight:700;
+}
+
+/*box-6 returns*/
+
+.returns{
     color:white;
-    border:0px;
 }
-#returns{
-    background-color:#131921;
-    width:76.95px;
-    height:50px;
-    margin-top:10px;
+
+
+/*box-7 Cart logo and text*/
+
+.nav-cart{
+    display:flex;
 }
-#cartlogo{
-    width:59px;
-    height:50px;
+.cart-logo{
+    color:white;
+    font-size:30px;
 }
-#navbar2{
-    background-color:#1f2a38;
+.cart-text{
+    color:white;
+    margin-top:15px;
+    font-size:0.85rem;
+    font-weight:700;
+}
+
+/*panel*/
+.panel{
+    background-color:#222f3d;
     width:100vw;
     height:40px;
-    margin-top:65px;
     display:flex;
     align-items:center;
 }
-.nav2links{
-    margin-right:10px;
-    margin-left:15px;
+.panel-All{
+    color:white;
+    margin-left:10px;
 }
+.panel-ops{
+    display:flex;
+    color:white;
+    width:80%;
+    font-size:0.85rem;
+    margin:20px;
+}
+.panel-deals{
+    color:white;
+    font-size:0.9rem;
+    font-weight:700;
+}
+.options{
+    margin-right:15px;
+}
+
 #backgroundImage{
     width:1497px;
     height:100vh;
@@ -121,7 +182,7 @@ a{
 }
 .message{
     position:absolute;
-    width:1000px;
+    width:1450px;
     text-align:center;
     height:40px;
     background-color:white;
@@ -129,8 +190,9 @@ a{
     justify-content:center;
     align-items:center;
     box-shadow: 50px solid black;
-    left:275px;
-    top:400px;
+    left:30px;
+    top:270px;
+    right:30px;
 }
 #mesg{
     color:blue;

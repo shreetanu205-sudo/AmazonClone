@@ -10,11 +10,17 @@
 <body>
 <header>
     <div id="fixednav">
-        <a href="#"><img id="amazonlogo" src="logo.png"></a>
-        <div id="location">
-        <a href="#" class="links"><i class="fa-solid fa-location-dot"></i>Deleiver to India</a>
+        <div class="nav-logo border">
+            <div class="logo"></div>
         </div>
-        <div id="CompleteSearch">
+        <div class="nav-address border">
+                <p class="add-first">Deliever to</p>
+                <div class="add-icon">
+                    <i style="color:white"class="fa-solid fa-location-dot"></i>
+                    <p class="add-sec">India</p>
+                </div>
+        </div>
+        <div class="CompleteSearch">
             <select name="type" id="dropdownsearch">
                 <option value="All Departments">All</option>
                 <option value="Arts & Crafts">Arts & Crafts</option>
@@ -48,49 +54,57 @@
              <div id="Searchicon">
                 <i class="fa-solid fa-magnifying-glass"></i>
              </div>
-             <div id="Language">
+        </div>
+        <div id="Language" class="border">
                 <img src="flag.jpg" id="britishflag">
                 <select name="Language" id="LangDropdown">
                     <option value="Hindi">HN</option>
                     <option value="English">EN</option>
                     <option value="Spanish">SP</option>
                 </select>
-             </div>
-             <div id="Complete">
-                <span style="font-size:15px">Hello sign in</span>
-                <br>
-                <select name="Acc" id="Accounts">
-                    <option value="Accounts and Lists" style="font-size:18px">Accounts and Lists</option>
-                </select>
-             </div>
-             <div id="returns">
-                <a href="#"><span style="font-size:15px">Returns</span><br><span style="font-size:18px">& Orders</span></a>
-             </div>
-             <div>
-                <a href="#"><img src="cart.png" id="cartlogo"></a>
-             </div>
-             
         </div>
-
+        <div class="sign-in border">
+            <p><span>Hello sign in</span></p>
+            <p class="nav-second">Accounts & Lists</p>
+        </div>
+        <div class="returns border">
+            <p><span>Returns</span></p>
+            <p class="nav-second">& Orders</p>
+        </div>
+        <div class="nav-cart border">
+            <i class="fa-solid fa-cart-shopping cart-logo"></i>
+            <p class="cart-text">Cart</p>
+        </div>
+        
     </div>
+    <div class="panel">
+        <div class="panel-All">
+             <i class="fa-solid fa-bars"></i>
+             All
+        </div>
+        <div class="panel-ops">
+             <p class="options">Today's Deals</p>
+             <p class="options">Customer Service</p>
+             <p class="options">Registry</p>
+             <p class="options">Gift Cards</p>
+             <p class="options">Sell</p>
+        </div>
+        <div class="panel-deals">
+            Shop deals in Electronics
+        </div>
+</div>
 </header>
 <main>
-<div id="navbar2">
-        <a href="#" class="nav2links"><i class="fa-solid fa-bars"></i>All</a>
-        <a href="#"class="nav2links">Today's deal</a>
-        <a href="#"class="nav2links">Gift Cards</a>
-        <a href="#"class="nav2links">Sell</a>
-        <a href="#"class="nav2links">Prime Video</a>
-        <a href="#"class="nav2links">Registry</a>
-        <a href="#"class="nav2links">Customer Service</a>
-    </div>
     <div class="hero">
         <a href="#"><img src="https://m.media-amazon.com/images/I/71QcgptqadL._SX3000_.jpg" id="backgroundImage">
         <div class="message">
-              You are on amazon.com. You can also shop on Amazon India for millions of products with fast local delivery.
+            <p style="color:black">You are on amazon.com. You can also shop on Amazon India for millions of products with fast local delivery.</p>
               <a href="#" id="mesg">Click here to go to amazon.in</a>
         </div>
     </a>
+    </div>
+    <div class="block1">
+        <a href="#"><img src=""></a>
     </div>
 </main>
 <footer>
