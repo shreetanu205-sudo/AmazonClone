@@ -3,6 +3,7 @@ body{
     margin:0px;
     font-family:Arial;
     border:border-box;
+    background:#e3e6e6;
 }
 p{
     margin:0;
@@ -177,6 +178,7 @@ span{
     display:flex;
     justify-content:center;
     align-items:flex-end;
+    position:relative;
 }
 .hero-mesg{
     height:40px;
@@ -192,4 +194,28 @@ span{
 }
 .hero-link{
     color:blue;
+}
+
+.shop{
+    display:flex;
+    justify-content:space-evenly;
+    flex-wrap:wrap;
+    background-color:#e3e6e6;
+    position:relative;
+}
+.box{
+    height:400px;
+    width:350px;
+    background-color:white;
+
+}
+.box-content{
+    background-size:cover;
+    margin-left:1rem;
+    margin-right:1rem;
+}
+.box-image{
+    height:280px;
+    margin-bottom:1rem;
+    margin-top:0px;
 }
