@@ -230,3 +230,29 @@ span{
 .horizontal-search h2{
     margin-left:1rem;
 }
+
+.last-main{
+    background-color:white;
+    height:200px;
+    padding:25px;
+}
+.contain-main{
+    border-top:0.2px solid rgb(61, 61, 61);
+    border-bottom:0.2px solid rgb(61, 61, 61);
+    background-color:white;
+    height:170px;
+    text-align:center;
+}
+.last-sign-in{
+    height:25px;
+    width:200px;
+    background-color:rgb(241, 184, 60);
+    display:inline-block;
+    border-radius:20px;
+    padding:13px 11px 5px 11px;
+    margin-bottom:7px;
+}
+.contain-main a{
+    color:blue;
+    text-decoration:underline;
+}
