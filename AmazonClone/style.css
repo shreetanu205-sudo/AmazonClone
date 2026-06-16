@@ -199,15 +199,14 @@ span{
 .shop{
     display:flex;
     justify-content:space-evenly;
-    flex-wrap:wrap;
     background-color:#e3e6e6;
-    position:relative;
 }
 .box{
     height:400px;
     width:350px;
     background-color:white;
-
+    margin-top:1rem;
+    margin-bottom:1rem;
 }
 .box-content{
     background-size:cover;
@@ -215,7 +214,5 @@ span{
     margin-right:1rem;
 }
 .box-image{
-    height:280px;
-    margin-bottom:1rem;
-    margin-top:0px;
+    height:300px;
 }
